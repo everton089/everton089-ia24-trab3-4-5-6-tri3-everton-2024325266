@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: black;
+    margin: 0;
+    border: 0;
+    background-image: url(espaço.jpg);
+  }
+  img.backgroud{
+    width: 100vw;
+    height: 100vh;
+  }
+  header {
+    min-width: 100px;
+    min-height: 100px;
+    color: rgb(0, 0, 255);
+    text-align: center;
+  }
+  
+  aside {
+    min-width: 100px;
+    min-height: 100px;
+    background-color: black;
+    text-align: center; 
+    color: blue;
+
+  }
+  div.menu{
+    margin-top: 2rem;
+    margin-right: 2rem;
+  }
+  
+  main {
+    min-width: 100px;
+    min-height: 100px;
+    padding: 1rem;
+    color: blue;
+    text-align: center;
+  }
+  
+  footer {
+    min-width: 100px;
+    min-height: 100px;
+  }
+  
+ dialog{
+   background-color: black;
+   width: 50vw;
+   height: 50vw;
+
+ }
+dialog  img{
+  width: 40vw;
+  height: 40vw;
+  object-fit: cover;
+}
+ main .gallery:hover>div:not(:hover) {
+  transform: scale(.95);
+  filter: grayscale(100%);
+  transition: .15s;
+}
+.gallery-image-modal .bt-close {
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  outline: none;
+}
+
+.bt-close{
+ transition: 0.5s;
+ border-color: transparent;
+ background-color: rgb(123, 17, 17);
+}
+
+.bt-next{
+  transition: 0.5s;
+  border-color: transparent;
+  background-color: rgb(123, 17, 17);
+}
+
+.bt-prev{
+  transition: 0.5s;
+  border-color: transparent;
+  background-color: rgb(123, 17, 17);
+ 
+}
+
+.bt-close:hover {
+ background-color: red;
+ transform: scale(0.8);
+
+}
+.bt-prev:hover{
+  background-color: red;
+  transform: scale(0.8);
+}
+.bt-next:hover{
+  background-color: red;
+  transform: scale(0.8);
+}
